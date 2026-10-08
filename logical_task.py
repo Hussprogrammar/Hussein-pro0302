@@ -1,6 +1,8 @@
-age = 20
-has_license = True
-if age >= 18 and has_license:
-    print("allowed to drive")
-
-
+score = 55
+attendance = 75
+if score >= 80 and attendance >= 85:
+    print("Exellence")
+elif score >= 50 and attendance >= 75:
+    print("passed")
+else:
+    print("failed")
