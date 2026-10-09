@@ -57,3 +57,40 @@ elif price <= 70:
     print("normal")
 else:
     print("too expensive")
+age = 75
+if age >=90:
+    print("Exellent")
+elif age >=70:
+    print("Good")
+elif age >=50:
+    print("Pass")
+else:
+    print("Fail")
+age = 25
+print(age == 25)
+print(age != 20)
+print(age > 18)
+print(age < 30)
+print(age >= 25)
+print(age <=23)
+age = 24
+if age >= 18 and age <= 30:
+    print("You are between 18 and 30")
+day = "saturday"
+day == "saturday" or day == "sunday"
+print("Weekend")
+is_raining = False
+if not is_raining:
+    print("you can go outside")
+is_student = True
+if  is_student:
+    print("you got discount")
+name = int(input("What is your age? "))
+if age <= 12:
+    print("child")
+elif age < 18:
+    print("teenager")
+elif age < 30:
+    print("young adult")
+else:
+    print("adult")
